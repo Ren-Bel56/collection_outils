@@ -16,3 +16,29 @@ h1, p
     border-style: outset;
     border-width: 1px;
 }
+.search-container{
+    float: left;
+    border-right: 1px solid black;
+}
+.banner_1
+{
+    width: 1000px;
+    left: 300px;
+    top: 200px;
+    right: 800px;
+    bottom: 390px;
+    position: fixed;
+    background-color: lightgrey;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+}
+.banner-image
+{
+
+    width: 250px;
+    height: 250px;
+    position: sticky;
+    top: 200px;
+    left: 300px;
+}
