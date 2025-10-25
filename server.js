@@ -24,5 +24,5 @@ http.createServer((req, res) => {
     res.end('Not Found');
   }
 }).listen(3000, () => {''
-  console.log('Server running at http://localhost:3000/');
+  console.log('Server running at http://localhost:3000/collec_out.html');
 });
