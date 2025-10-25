@@ -1,5 +1,13 @@
 {
     "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch localhost",
+            "url": "http://localhost/collec_out.html",
+            "webRoot": "${workspaceFolder}"
+        },
         
 
         {
