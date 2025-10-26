@@ -23,6 +23,6 @@ http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Not Found');
   }
-}).listen(3000, () => {''
+}).listen(3000, () => {'' 
   console.log('Server running at http://localhost:3000/collec_out.html');
 });

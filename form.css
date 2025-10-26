@@ -20,18 +20,35 @@ h1, p
     float: left;
     border-right: 1px solid black;
 }
+.search-col{
+    box-sizing: border-box;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border-width: 10vmin;
+    border-color: black;
+}
 .banner_1
 {
-    width: 1000px;
+    position: absolute;
     left: 300px;
-    top: 200px;
-    right: 800px;
-    bottom: 390px;
-    position: fixed;
-    background-color: lightgrey;
+    padding:auto;
+    width: 500px;
+    height: 200px;
+    background-image: url('images/outils WoShCe.jpg');
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: auto;
     border-color: black;
     border-style: outset;
     border-width: 1px;
+    align-items: first baseline;
+    display:grid;
+    grid-template-columns: 0fr 2fr 2fr;
 }
 .banner-image
 {
