@@ -22,7 +22,7 @@ h1, p
 }
 .search-col{
     box-sizing: border-box;
-    border: 10px solid black;
+    border: 2px solid;
     padding: 10px;
     margin: 10px;
     display: grid;
@@ -33,8 +33,6 @@ h1, p
 }
 .banner_1
 {
-    position: absolute;
-    left: 300px;
     padding:auto;
     width: 500px;
     height: 200px;
@@ -48,7 +46,7 @@ h1, p
     border-width: 1px;
     align-items: first baseline;
     display:grid;
-    grid-template-columns: 0fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr;
 }
 .banner-image
 {
