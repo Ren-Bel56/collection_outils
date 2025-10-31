@@ -4,7 +4,7 @@ const path = require('path');
 
 http.createServer((req, res) => {
   if (req.method === 'GET' && req.url === '/') {
-    const filePath = path.join(__dirname, 'collec_out.html');
+    const filePath = path.join(__dirname,'collec_out.html');
     fs.readFile(filePath, (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -23,6 +23,6 @@ http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Not Found');
   }
-}).listen(3000, () => {'' 
-  console.log('Server running at http://localhost:3000/collec_out.html');
+}).listen(3000, () => {
+  console.log('Server running at http://localhost:3000');
 });
