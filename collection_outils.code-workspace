@@ -3,5 +3,13 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"node-module-intellisense.modulePaths": [
+			
+
+
+
+		]
+	}
 }

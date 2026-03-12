@@ -16,22 +16,50 @@ h1, p
     border-style: outset;
     border-width: 1px;
 }
-.search-container{
-    float: left;
-    border-right: 1px solid black;
+.body{
+    display : grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 1px;
+    padding: 1px;
+    align-items: start;
+    border-color: rgb(2, 2, 2);
+
+
 }
-.banner_1
+.search-container{
+    display: -webkit-flex;
+    flex-direction: column;
+    grid-area: auto;
+}
+.search-col{
+    
+    padding: 3px;
+    margin: 1px;
+    display: grid;
+    grid-template-rows: 9fr 1fr 1fr;
+    grid-gap: 1px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+}
+.banner-a
 {
-    width: 1000px;
-    left: 300px;
-    top: 200px;
-    right: 800px;
-    bottom: 390px;
-    position: fixed;
-    background-color: lightgrey;
+    display: grid;
+    width: 500px;
+    height: 200px;
+    background-image: url('images/outils WoShCe.jpg');
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 2px;
     border-color: black;
     border-style: outset;
     border-width: 1px;
+    animation: normal 20s normal forwards;
+    
+    
+    
 }
 .banner-image
 {
